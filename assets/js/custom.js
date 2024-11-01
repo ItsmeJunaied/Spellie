@@ -102,7 +102,7 @@ if (chatList) {
     chatItem.className = "hero-chat-item";
     chatItem.innerHTML = `
             <img src="assets/img/${
-              message.sender === "You" ? "../img/Asset 1.png" : "../img/Asset 2.png"
+              message.sender === "You" ? "../img/user-spellie.avif" : "../img/Asset 2.png"
             }" alt="${message.sender}" />
             <div class="hero-chat-item-content">
               <h3>${message.sender} <span>${message.time}</span></h3>
